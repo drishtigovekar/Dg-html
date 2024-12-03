@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>javascript</title>
+        <head>
+            <script>
+var name=prompt("Enter Your Name");
+document.write(name+"<br>");
+var num=prompt("Enter Your English Marks");
+var num1=prompt("Enter Your Maths Marks");
+var num2=prompt("Enter Your Economics Marks");
+var num3=prompt("Enter Your OCM Marks");
+sum=parseInt(num)+parseInt(num1)+parseInt(num2)+parseInt(num3);
+per=sum/400*100;
+document.write("Your Percentage Is"+per+"<br>");
+if(per>80){
+    document.write("A");
+}
+else if(per<=80&&per<60){
+    document.write("B");
+}
+else if(per<=60&&per<40){
+    document.write("C");
+}
+else{
+    document.write("D")
+}
+            </script>
+    </head>
+    <body>      
+    </body>
+</html>
